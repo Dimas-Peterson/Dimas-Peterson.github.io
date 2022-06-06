@@ -24,13 +24,13 @@
                     <!-------NAVBAR------>
   <nav class="navbar nav-bg navbar-expand-md fixed-top">
     <div class="container">
-      <a href="#" class="text-nav text-blanco">
+      <a href="#" class="navbar-brand text-nav text-blanco">
         <img src="imagen de la marca" alt="mibrand" />
       </a>
       <!--Boton collapse-->
-      <button class="navbar-toggler me-2" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
         aria-expanded="false" aria-label="Barra de navegacion">
-        <span class="navbar-toggler-icon"></span>
+        <img class="icon-toggler" src="Estilos/icons8-hamburger-64.png">
       </button>
       <!--Items-->
       <div class="collapse navbar-collapse" id="mainNav">
@@ -50,37 +50,36 @@
     <!--Header-->
     <header class="container">
       <div class="row mb-1 align-items-center header-main justify-content-center vh-100">
-        <div class="col-10 me-0 col-md-7 col-lg-5 col-xl-4 me-5">
-        
+        <div class="col-8 me-0 col-md-7 col-lg-4 col-xl-4 me-5 image-s">
           <div class="bg-success position-relative image-bg">
             <img src="MI foto.png" class="w-100" />
           </div>
         </div>
-        <div class="col-10 mt-4 col-md-10 col-lg-6 ms-5">
+        <div class="col-12 mt-4 col-sm-11 col-md-10 col-lg-6 ms-5">
             <h3>
-              <span class="col-12 text-t text-muted">Acerca de mi</span>
+              <span class="col-10 text-t text-muted mobile-s">Acerca de mi</span>
             </h3>
             <p class="text-p mt-3 text-blanco">
              Mi nombre es Dimas, y soy desarrollador full stack.
             </p>
             <div class="row text-start text-blanco text-container-datos">
-              <ul class="text-items-datos text-muted col-3 list-unstyled">
+              <ul class="text-items-datos text-muted col-2 list-unstyled">
                 <li>Nombre:</li>
                 <li>Edad:</li>
                 <li>Direccion:</li>
                 <li>Telefono:</li>
                 <li>Email:</li>
               </ul>
-              <ul class="text-datos text-blanco col-9 list-unstyled">
+              <ul class="text-datos text-blanco col-8 col-sm-9 col-md-10 list-unstyled">
                 <li>Dimas Peterson</li>
                 <li>30</li>
                 <li>Corrientes, Argentina</li>
-                <li>+54 9 3794056554</li>
+                <li>+5493794056554</li>
                 <li>robertodipeterson@gmail.com</li>
               </ul>
             </div>
             <!----------------- Boton descarga CV ------------------>
-            <div class="col-8 justify-content-center justify-content-lg-start">
+            <div class="col-12 col-sm-8 justify-content-center justify-content-lg-start">
               <a href="Estilos/Dimas peterson CV.pdf" target="_blank" class="btn rounded-pill btn-outline-danger mt-4 px-4"> Descargar CV </a>
             </div>
         </div>
@@ -93,47 +92,47 @@
   <!--------------------------------------------------------->
   <!----------------- HABILIDADES TECNICAS ------------------>
   
-    <section class="p-3">
+    <section class="p-3 skill-s">
       <div class="row justify-content-center text-center">
-        <h2 class="col-12 mt-1 mt-md-5 mt-lg-4 mt-lg-1 text-center display-5 text-blanco">HABILIDADES TECNICAS</h2>
+        <h2 class="col-12 mt-4 mt-lg-2 mt-xl-1 text-center display-5 text-blanco text-t-s">HABILIDADES TECNICAS</h2>
         <div class="row justify-content-center">
           <!--Card 1-->
-          <div class="col-11 col-md-10 col-lg-8 col-xxl-2 body-bg text-center rounded-3 margen-skill-item width-skill-item">
+          <div class="col-11 col-md-10 col-lg-8 col-xxl-2 body-bg text-center rounded-3 margen-skill-item width-skill-item text-st-s">
             <!--Titulo-->
             <h5 class="m-2 p-2 text-capitalize text-gris height-h5">BACKEND</h5>
             <!--Descripcion-->
-            <ul class="mt-4 text-blanco height-ul text-iconos list-unstyled">
+            <ul class="mt-4 text-blanco height-ul text-iconos list-unstyled text-sk-s">
               <li><img  class="iconoChico" src="Estilos/java.svg"></i> JAVA</li>
               <li><img class="iconoGrande" src="Estilos/sql.svg"> SQL</li>
             </ul>
           </div>
           <!--Card 2-->
-          <div class="col-11 col-md-10 col-lg-8 col-xxl-2 body-bg text-center rounded-3 margen-skill-item width-skill-item">
+          <div class="col-11 col-md-10 col-lg-8 col-xxl-2 body-bg text-center rounded-3 margen-skill-item width-skill-item text-st-s">
             <!--Titulo-->
             <h5 class="m-2 p-2 height-h5 text-gris text-capitalize">FRONTEND</h3>
               <!--Descripcion-->
-              <ul class="mt-4 text-blanco height-ul text-iconos list-unstyled">
-                <li><img alt="javascript" class="iconoGrande" src="Estilos/javascript.svg"> JAVASCRIPT</li>
+              <ul class="mt-4 text-blanco height-ul text-iconos list-unstyled text-sk-s">
+                <li><img alt="javascript" class="iconoGrande text-sk-s" src="Estilos/javascript.svg"> JAVASCRIPT</li>
                 <li><img alt="html" class="iconoChico" src="Estilos/file-type-html.svg"></i> HTML5</li>
                 <li><img alt="css3" class="iconoGrande" src="Estilos/css3-plain.svg"> CSS3</li>
               </ul>
           </div>
           <!--Card 3-->
-          <div class="col-11 col-md-10 col-lg-8 col-xxl-2 body-bg text-center rounded-3 margen-skill-item width-skill-item">
+          <div class="col-11 col-md-10 col-lg-8 col-xxl-2 body-bg text-center rounded-3 margen-skill-item width-skill-item text-st-s">
             <!--Titulo-->
             <h5 class="mt-2 pt-2 align-self-center text-gris height-h5 text-capitalize">FRAMEWORK</h3>
               <!--Descripcion-->
-              <ul class="mt-4 text-blanco height-ul text-iconos list-unstyled">
+              <ul class="mt-4 text-blanco height-ul text-iconos list-unstyled text-sk-s">
                 <li><img alt="springboot"  class="iconoGrande" src="Estilos/spring (1).svg"> SPRING BOOT</li>
                 <li><img alt="bootstrap" class="iconoGrande" src="Estilos/bootstrap.svg"> BOOTSTRAP</li>
               </ul>
           </div>
           <!--Card 4-->
-          <div class="col-12 col-md-11 col-lg-10 col-xl-8 col-xxl-4 body-bg text-center rounded-3">
+          <div class="col-12 col-md-11 col-lg-10 col-xl-8 col-xxl-4 body-bg text-center rounded-3 text-st-s">
             <!--Titulo-->
             <h5 class="mt-2 height-h5 text-gris text-capitalize">METODOLOGIA Y HERRAMIENTAS</h5>
             <!--Descripcion-->
-            <ul class="mt-4 text-blanco height-ul text-iconos list-unstyled">
+            <ul class="mt-4 text-blanco height-ul text-iconos list-unstyled text-sk-s">
               <li><img alt="scrum" class="iconoChico" src="Estilos/scrum.svg"> SCRUM</li>
               <li><img alt="git" class="iconoGrande" src="Estilos/git.svg"> GIT</li>
               <li><img alt="github" class="iconoGrande" src="Estilos/github-code-source.svg"> GITHUB - KANBAN</li>
