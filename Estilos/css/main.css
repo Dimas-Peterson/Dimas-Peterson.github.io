@@ -212,12 +212,12 @@
     }
 
     .skill-s{
-        margin-top: 15rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
     .widht-nav-f{
         width: 100%;
         margin-left: 1rem;
+        margin-right: 2rem;
     }
 
     .text-t-s{
@@ -232,23 +232,19 @@
         font-size: 0.9rem;
     }
 
-    .margin-s{
-        margin: auto;
-    }
-
     .text-nav{
         font-size: 1.2rem;
+    }
+    .container-s{
+        height: 750px;
     }
 
 }
 
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 768px){
     body {
         margin-top: 6rem;
-    }
-    .skill-s{
-        margin-top: 1rem;
     }
 
 }
@@ -256,8 +252,5 @@
 @media screen and (max-width: 992px){
     body {
         margin-top: 6rem;
-    }
-    .skill-s{
-        margin-top: 20rem;
     }
 }
