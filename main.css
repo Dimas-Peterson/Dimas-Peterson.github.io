@@ -1,0 +1,256 @@
+/*----------------COLOR DEL FONDO/BODY-----------------*/
+.body-bg{
+    background-color: #020414;
+}
+
+/*----------------COLOR DEL NAV-----------------*/
+.nav-bg{
+    background-color: rgb(29, 40, 77);
+}
+
+.header-main{
+    min-height: 100vh;
+}
+.icon-toggler{
+    height: 40px;
+    width: 40px;
+}
+
+/*----------------EFECTO DE IMAGEN-----------------*/
+.image-bg{
+    position: relative;
+    align-items: center;
+}
+
+.image-bg::before {
+    content: "";
+    height: 110%;
+    width: 58%;
+    background-color: rgb(29, 40, 77);
+    position: absolute;
+    left: -7%;
+    z-index: -5;
+    top: -5%;
+}
+
+/*----------------HABILIDADES TECNICAS-----------------*/
+.width-skill-container{
+    width: 100vh;
+}
+.width-skill{
+    width: 100vh;
+}
+
+.height-skill{
+    height: 50vh;
+}
+
+.height-skill-item{
+    height: 12rem;
+}
+
+.width-skill-item{
+    width: 20rem;
+}
+
+.margen-skill-item{
+    margin: 10px;
+}
+
+/*----------------LISTA SKILLS-----------------*/
+.margen-h5{
+    margin-top: 2rem;
+}
+
+.height-h5{
+    height: 20%;
+}
+.height-ul{
+    height: 80%;
+}
+
+/*----------------COLOR FONDO TARJETAS HABILIDADES-----------------*/
+.skill-bg {
+    background-color: #323f42;
+}
+
+/*----------------PROYECTOS -----------------*/
+/*----------------ALTURA DE CARD -----------------*/
+.height-card{
+    height: 11rem;
+}
+
+.article-bg{
+    background-color: rgb(29, 40, 77);
+}
+.width-card{
+    width: 23rem;
+}
+
+/*----------------ELEMENTOS DE LAS TARJETAS -----------------*/
+
+.height-h3{
+    height: 30%;
+}
+
+.height-p{
+    height: 40%;
+}
+
+.height-btn{
+    height: 30%;
+}
+
+/*----------------NAV FOOTER-----------------*/
+.widht-nav-f{
+    width: 50%;
+}
+
+/*----------------COLOR DE FONDO NAV FOOTER-----------------*/
+.nav-bg-f{
+    background-color: rgb(29, 40, 77);
+}
+
+
+/*----------------ESTILOS DEL TEXTO--------------------------*/
+@font-face {
+    font-family: fuente-titulo;
+    src: url(Fuente-titulos.otf);
+}
+
+@font-face {
+    font-family: fuente-parrafo;
+    src: url(LiberationMono-Regular.ttf);
+}
+
+
+.text-t{
+    color:rgb(232, 232, 232);
+    font-family: 'Lucida Sans', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+
+.text-p{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.text-blanco{
+    color:rgb(232, 232, 232) ;
+}
+.text-gris{
+    color: rgb(181, 181, 181);
+}
+
+.text-container-datos{
+    line-height: 2.5rem;
+}
+
+.text-items-datos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    text-align: left;
+}
+.text-datos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+
+.text-nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .9rem;
+    letter-spacing: 0.1rem;
+}
+
+
+.text-nav-f{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .9rem;
+    letter-spacing: 0.1rem;
+    color: #020414;
+}
+
+.iconoGrande{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.iconoChico {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.text-iconos{
+    line-height: 1.9rem;
+}
+
+
+/*-----RESPONSIVE-------*/
+
+@media screen and (max-width: 425px){
+    body {
+        margin-top: 6rem;
+    }
+
+    .image-s{
+        margin-left: 6rem;
+    }
+    
+    .text-t{
+        font-size: 1.2rem;
+    }
+
+    .text-p{
+        font-size: 1rem;
+    }
+
+    .text-items-datos{
+        display: none;
+    }
+
+    .text-datos{
+        font-size: .8rem;
+    }
+
+    .skill-s{
+        margin-left: 1rem;
+    }
+    .widht-nav-f{
+        width: 100%;
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
+
+    .text-t-s{
+        font-size: 1.5rem;
+    }
+
+    .text-st-s{
+        font-size: 1.4rem;
+    }
+
+    .text-sk-s{
+        font-size: 0.9rem;
+    }
+
+    .text-nav{
+        font-size: 1.2rem;
+    }
+    .header-main{
+        max-height: 750px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px){
+    body {
+        margin-top: 6rem;
+    }
+
+}
+
+@media screen and (max-width: 992px){
+    body {
+        margin-top: 6rem;
+    }
+}
