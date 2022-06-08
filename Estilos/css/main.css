@@ -235,8 +235,8 @@
     .text-nav{
         font-size: 1.2rem;
     }
-    .container-s{
-        height: 750px;
+    .header-main{
+        max-height: 750px;
     }
 
 }
