@@ -247,7 +247,9 @@
     body {
         margin-top: 6rem;
     }
-
+    .nav-bg-offcanvas{
+        background-color: #020414;
+    }
 }
 
 @media screen and (max-width: 992px){
