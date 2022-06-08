@@ -236,8 +236,12 @@
         font-size: 1.2rem;
     }
     .header-main{
+<<<<<<< HEAD
         max-height: 750px;
         margin-bottom: 50px;
+=======
+        max-height: 780px;
+>>>>>>> 5fe0e62a48eed34043c01a3adc6932307dceaeb7
     }
 
 }
