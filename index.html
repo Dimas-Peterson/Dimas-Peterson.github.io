@@ -28,18 +28,24 @@
         <img src="imagen de la marca" alt="mibrand" />
       </a>
       <!--Boton collapse-->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainNav" aria-controls="mainNav"
         aria-expanded="false" aria-label="Barra de navegacion">
         <img class="icon-toggler" src="Estilos/icons8-hamburger-64.png">
       </button>
       <!--Items-->
-      <div class="collapse navbar-collapse" id="mainNav">
+      <div class="offcanvas bg-black offcanvas-top" tabindex="-1" data-bs-backdrop="true" id="mainNav">
         <!--Con ms-auto se acomodan los anclas a la derecha-->
-        <div class="nav ms-auto flex-column flex-md-row">
-          <a href="#" class="nav-link active text-nav text-blanco">Home</a>
-          <a href="https://linkedin.com/in/r-dimas-peterson" target="_blank" class="nav-link text-nav text-blanco">Linkedin</a>
-          <a href="https://github.com/Dimas-Peterson" target="_blank" class="nav-link text-nav text-blanco">Github</a>
-          <a href="#secContact" target="_blank" class="nav-link text-nav text-blanco">Email</a>
+        <div class="offcanvas-header nav-bg">
+          <h5 class="offcanvas-title text-blanco" id="offcanvasNavbarLabel">ImagenBrand</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body body-bg">
+          <div class="nav ms-auto flex-column flex-md-row">
+            <a href="#" class="nav-link active text-nav text-blanco">Home</a>
+            <a href="https://linkedin.com/in/r-dimas-peterson" target="_blank" class="nav-link text-nav text-blanco">Linkedin</a>
+            <a href="https://github.com/Dimas-Peterson" target="_blank" class="nav-link text-nav text-blanco">Github</a>
+            <a href="#secContact" target="_blank" class="nav-link text-nav text-blanco">Email</a>
+          </div>
         </div>
       </div>
     </div>
@@ -59,18 +65,18 @@
             <h3>
               <span class="col-10 text-t text-muted mobile-s">Acerca de mi</span>
             </h3>
-            <p class="text-p mt-3 text-blanco">
+            <p class="text-p mt-3 col-9 text-blanco">
              Mi nombre es Dimas, y soy desarrollador full stack.
             </p>
             <div class="row text-start text-blanco text-container-datos">
-              <ul class="text-items-datos text-muted col-4 col-sm-3 col-md-2 list-unstyled">
+              <ul class="text-items-datos text-muted col-3 col-sm-3 list-unstyled">
                 <li>Nombre:</li>
                 <li>Edad:</li>
                 <li>Direccion:</li>
                 <li>Telefono:</li>
                 <li>Email:</li>
               </ul>
-              <ul class="text-datos text-blanco col-8 col-sm-9 col-md-10 list-unstyled">
+              <ul class="text-datos text-blanco col-8 col-sm-9 list-unstyled">
                 <li>Dimas Peterson</li>
                 <li>30</li>
                 <li>Corrientes, Argentina</li>
@@ -79,8 +85,8 @@
               </ul>
             </div>
             <!----------------- Boton descarga CV ------------------>
-            <div class="col-12 col-sm-8 justify-content-center justify-content-lg-start">
-              <a href="Estilos/Dimas peterson CV.pdf" target="_blank" class="btn rounded-pill btn-outline-danger mt-4 px-4"> Descargar CV </a>
+            <div class="col-12 mb-1 col-sm-8 justify-content-center justify-content-lg-start">
+              <a href="Estilos/Dimas peterson CV.pdf" target="_blank" class="btn rounded-pill btn-outline-light mt-4 px-4"> Descargar CV </a>
             </div>
         </div>
       </div>
@@ -135,7 +141,8 @@
             <ul class="mt-4 text-blanco height-ul text-iconos list-unstyled text-sk-s">
               <li><img alt="scrum" class="iconoChico" src="Estilos/scrum.svg"> SCRUM</li>
               <li><img alt="git" class="iconoGrande" src="Estilos/git.svg"> GIT</li>
-              <li><img alt="github" class="iconoGrande" src="Estilos/github-code-source.svg"> GITHUB - KANBAN</li>
+              <li><img alt="github" class="iconoGrande" src="Estilos/github-code-source.svg"> GITHUB</li>
+              <li><img alt="kanban" class="iconoGrande" src=""> KANBAN</li>
               <li><img alt="jira" class="iconoGrande" src="Estilos/jira.svg"> JIRA</li>
             </ul>
           </div>

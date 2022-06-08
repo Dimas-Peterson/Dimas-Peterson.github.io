@@ -237,6 +237,7 @@
     }
     .header-main{
         max-height: 750px;
+        margin-bottom: 50px;
     }
 
 }
