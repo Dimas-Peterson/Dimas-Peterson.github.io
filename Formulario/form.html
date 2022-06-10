@@ -9,27 +9,6 @@
     <!--css Bootstrap-->
     <link rel="stylesheet" href="../Estilos/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../Estilos/css/main.css" />
-
-    <!--SMTP mail-->
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    
-    <script type="text/javascript">
-        function sendEmail() {
-          Email.send({
-            Host: "smtp.gmail.com",
-            Username: "robertodipeterson@gmail.com",
-            Password: "tparcxrzflvpsapp",
-            To: 'robertodipeterson@gmail.com',
-            From: "sharon",
-            Subject: "Contacto desde el perfil web",
-            Body: "algo bro"
-          })
-            .then(function (message) {
-              alert("mail sent successfully")
-            })
-        }
-</script>
-
 </head>
 
 <body class="body-bg">
@@ -70,8 +49,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-12 mt-2 text-center">
-                                    <button type="submit" value="Send Email" 
-                                    onclick="sendEmail()" class="btn btn-primary btn-lg">Enviar</button>
+                                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
                                 </div>
                             </div>
                         </div>
